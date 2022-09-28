@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "OK! ESTOQUE INDISPONÍVEL NO MOMENTO. TENTE NOVAMENTE MAIS TARDE"
+    return "Adriana Linda Barros"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
